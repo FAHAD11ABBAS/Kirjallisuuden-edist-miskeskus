@@ -1,0 +1,49 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Process Diagram -->
+  <rect width="800" height="400" fill="#ffffff"/>
+  
+  <!-- Title background -->
+  <rect x="50" y="30" width="700" height="50" rx="8" fill="#e0f2f1"/>
+  <text x="400" y="62" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f4f58" text-anchor="middle">KIDE Toimintamalli</text>
+  
+  <!-- Step 1: Kirjailija -->
+  <circle cx="150" cy="200" r="50" fill="#1f4f58"/>
+  <text x="150" y="210" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">Kirjailija</text>
+  <text x="150" y="280" font-family="Arial, sans-serif" font-size="14" fill="#1f4f58" text-anchor="middle">Luo teoksen</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M200 200 L280 200" stroke="#1f4f58" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2: Kopioiminen -->
+  <circle cx="330" cy="200" r="50" fill="#15383f"/>
+  <text x="330" y="205" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">Yksityinen</text>
+  <text x="330" y="222" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">käyttö</text>
+  <text x="330" y="280" font-family="Arial, sans-serif" font-size="14" fill="#1f4f58" text-anchor="middle">Kopiointi</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M380 200 L460 200" stroke="#1f4f58" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3: Valtio -->
+  <circle cx="510" cy="200" r="50" fill="#1f4f58"/>
+  <text x="510" y="210" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">Valtio</text>
+  <text x="510" y="280" font-family="Arial, sans-serif" font-size="14" fill="#1f4f58" text-anchor="middle">Maksaa hyvitystä</text>
+  
+  <!-- Arrow 3 -->
+  <path d="M560 200 L640 200" stroke="#1f4f58" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 4: KIDE -->
+  <circle cx="690" cy="200" r="50" fill="#e0f2f1" stroke="#1f4f58" stroke-width="3"/>
+  <text x="690" y="210" font-family="Arial, sans-serif" font-size="18" fill="#1f4f58" text-anchor="middle" font-weight="700">KIDE</text>
+  <text x="690" y="280" font-family="Arial, sans-serif" font-size="14" fill="#1f4f58" text-anchor="middle">Jakaa apurahoina</text>
+  
+  <!-- Return arrow -->
+  <path d="M690 150 Q690 120 400 120 Q150 120 150 150" stroke="#1f4f58" stroke-width="3" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+  <text x="400" y="110" font-family="Arial, sans-serif" font-size="12" fill="#1f4f58" text-anchor="middle" opacity="0.7">Apurahat tekijöille</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#1f4f58" />
+    </marker>
+  </defs>
+</svg>

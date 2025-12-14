@@ -1,0 +1,16 @@
+.process-section {
+    padding: 5rem 0;
+    background-color: white;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 3rem;
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+}
+
+.process-image-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}

@@ -1,0 +1,40 @@
+/* Päätyylit */
+:root {
+  --font-heading: 'DM Serif Display', serif;
+  --font-body: 'Public Sans', sans-serif;
+
+  --color-primary: #1f4f58;
+  --color-primary-dark: #15383f;
+  --color-text-main: #1f4f58;
+  --color-text-light: #ffffff;
+  --color-bg-light: #f9fbfb;
+  --color-accent: #e0f2f1;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text-main);
+  background-color: var(--color-bg-light);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
+img { max-width: 100%; display: block; }
+
+a { text-decoration: none; color: inherit; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+button { font-family: var(--font-body); cursor: pointer; }
