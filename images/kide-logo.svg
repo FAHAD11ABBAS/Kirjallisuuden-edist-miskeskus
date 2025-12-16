@@ -1,0 +1,7 @@
+<svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- KIDE Logo -->
+  <rect width="120" height="60" rx="4" fill="#1f4f58"/>
+  <text x="60" y="38" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">KIDE</text>
+  <circle cx="15" cy="15" r="6" fill="#e0f2f1"/>
+  <path d="M15 10 L15 20 M10 15 L20 15" stroke="#1f4f58" stroke-width="2"/>
+</svg>
